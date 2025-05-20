@@ -14,7 +14,6 @@ from openai import OpenAI, RateLimitError
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
-print("API Key:", os.getenv("OPENAI_API_KEY"))
 
 @function_tool
 def generate_content(video_transcript: str, social_media_platform: str):
