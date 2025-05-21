@@ -18,8 +18,7 @@ def generate_content(video_transcript: str, social_media_platform: str) -> str:
         messages=[{"role":"user","content":prompt}],
         max_tokens=150
     )
-    # sync から async へラップしている場合は await が必要になるにゃ
-    return resp.choices[0].message.content  # 関数ツールは同期呼び出し想定
+    return resp.choices[0].message.content 
 
 content_writer_agent = Agent(
     name="ContentWriter",
