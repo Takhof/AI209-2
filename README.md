@@ -3,7 +3,7 @@ We never need to think again !
 
 Example:
 
-https://www.youtube.com/watch?v=p00zsi71t6I&ab_channel=MatthewCawood would output
+A simple beginner piano video would output
 ![image](https://github.com/user-attachments/assets/fccb9fee-636d-4113-beb2-6db293182578)
 in 5 seconds
 
